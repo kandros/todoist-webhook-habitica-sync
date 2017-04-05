@@ -1,0 +1,19 @@
+{
+  "name": "todoist-habitica-sync-webhook",
+  "author": "jaga santagostino <jagasantagostino@gmail.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "habitica": "^4.0.0",
+    "micro": "^7.3.0",
+    "micro-post": "^0.1.1"
+  },
+  "now": {
+    "dotenv": true
+  }
+}
